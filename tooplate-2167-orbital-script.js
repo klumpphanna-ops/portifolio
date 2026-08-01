@@ -55,7 +55,7 @@
       p.style.setProperty('--tz', r + 'px');
     });
     spacingSteps.forEach(function (b) {
-      b.classList.toggle(, parseInt(b.getAttribute('data-space'), 10) === idx);
+      b.classList.toggle('click', parseInt(b.getAttribute('data-space'), 10) === idx);
     });
   }
   spacingSteps.forEach(function (b) {
