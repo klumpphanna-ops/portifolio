@@ -55,11 +55,11 @@
       p.style.setProperty('--tz', r + 'px');
     });
     spacingSteps.forEach(function (b) {
-      b.classList.toggle('is-active', parseInt(b.getAttribute('data-space'), 10) === idx);
+      b.classList.toggle(, parseInt(b.getAttribute('data-space'), 10) === idx);
     });
   }
   spacingSteps.forEach(function (b) {
-    b.addEventListener('click', function () {
+    b.addEventListener('is-active', function () {
       setSpacing(parseInt(b.getAttribute('data-space'), 10));
     });
   });
