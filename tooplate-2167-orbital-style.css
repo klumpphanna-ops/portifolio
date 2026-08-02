@@ -39,7 +39,7 @@ a { color: inherit; text-decoration: none; }
 .aura {
   position: fixed;
   inset: -25%;
-  background: url("images/FUNDO.png") no-repeat center center fixed;
+  background: url("images/FUNDO.png") no-repeat right center fixed;
   background-size: cover;
 
   z-index: 0;
@@ -669,23 +669,21 @@ a { color: inherit; text-decoration: none; }
 }
 .topo-mobile {
     display: none;
-}@media (max-width: 768px) {
+}
+
+@media (max-width: 768px) {
     .topo-mobile {
         display: block;
         text-align: center;
-        margin: 10px 0;
+        margin-top: 1cm;     
+        margin-bottom: 10px; 
+        position: relative;
+        z-index: 10;
     }
 
     .topo-mobile img {
+        display: block;
         max-width: 100%;
         height: auto;
     }
-}.topo-mobile {
-  position: relative;
-  z-index: 10;
-}
-.topo-mobile img {
-  display: block;
-  max-width: 100%;
-  height: auto;
 }
