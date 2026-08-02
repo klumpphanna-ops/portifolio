@@ -163,6 +163,14 @@ a { color: inherit; text-decoration: none; }
 }
 .mobile-menu a:hover { color: var(--cyan); }
 
+.mobile-menu {
+  margin-bottom: 120px;
+}
+
+.mobile-menu {
+  margin-bottom: 10vh;
+
+}
 /* Hero with orbital ring */
 .hero {
   position: relative;
@@ -675,7 +683,7 @@ a { color: inherit; text-decoration: none; }
     .topo-mobile {
         display: block;
         text-align: center;
-        margin-top: 1cm;     
+        margin-top: 5cm;     
         margin-bottom: 10px; 
         position: relative;
         z-index: 10;
